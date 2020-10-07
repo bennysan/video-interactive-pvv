@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f2;
+}
+.intro {
+  width: 70vw;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.content {
+  width: 50vw;
+  padding-left: 100px;
+}
+.infos {
+  font-size: 18px;
+}
+.annotation {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  width: 80px;
+}

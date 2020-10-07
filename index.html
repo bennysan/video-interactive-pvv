@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="src/index.js"></script>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="intro">
+        <p>
+          L’objectif est de créer une vidéo interactive, offrant à l’utilisateur
+          un panel de choix qui changeront le déroulé de cette dernière. Le but
+          étant de créer une expérience unique et personnalisée pour chaque
+          utilisateurs.
+        </p>
+      </div>
+      <div class="content">
+        <video autoplay="true" loop="true" width="200px">
+          <source src="full-low.mp4" />
+        </video>
+        <span class="annotation">video complete</span>
+        <div class="infos">
+          <p>
+            Composé uniquement d’une vidéo regroupant toutes les scènes
+            possibles, cette dernière passera automatiquement à la scène
+            correspondant à la réponse donnée.
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <video autoplay="true" id="manip-2" width="200px">
+          <source src="full-low.mp4" />
+        </video>
+
+        <span class="annotation">Video dans le desordre</span>
+        <video id="manip" width="200px">
+          <source src="full-low.mp4" />
+        </video>
+        <span class="annotation">Changement de scene dynamique</span>
+        <div class="infos">
+          <p>
+            Un système de navigation intégré,permetra à l'utilisateur de
+            repondre, la vidéo passera à une nouvelle séquence afin de créer
+            chez lui un sentiment de continuité.
+          </p>
+          <button id="blue">Play</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
